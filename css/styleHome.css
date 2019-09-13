@@ -10,7 +10,7 @@ body{
 div.container-fluid {
     /*width: 100%;*/
     background-color: rgb(35, 61, 88);
-    max-width: 1180px;
+    max-width: 1200px;
     height: 100vh;
 }
 
