@@ -1,0 +1,27 @@
+@font-face{
+	font-family: 'aller';
+	src:    url('fonts/Aller.eot?mbmn31');
+	src:    url('fonts/Aller.eot?mbmn31#iefix') format('embedded-opentype'),
+	        url('fonts/Aller.ttf?mbmn31') format('truetype'),
+	        url('fonts/Aller.woff?mbmn31') format('woff'),
+	        url('fonts/Aller.svg?mbmn31#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"] {
+	/*use !important to prevent issues with browser extensions that change fonts */
+font-family: 'icomoon' !important;
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+}
+
