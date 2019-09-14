@@ -101,7 +101,7 @@ div.mainlogo figure img {
     margin-left: 40%; 
 
 }
-button#cursos{
+div.mainlogo button{
     margin-left: 40%;
     width: 20%;
     height: 8vh;
@@ -113,17 +113,18 @@ button#cursos{
     -o-border-radius: 20px;
     text-align: center;
     padding-top: 1vh;
-    z-index: 100000;
+    
 }
-button#cursos a{
+button a {
     color: white;
     font-family: "aller";
     font-size: 1.4em;
-    z-index: 100000;
+    
+    
     
 
 } 
-button#cursos:hover{
+/*a.button:hover{
 
     transform: scale(1.2) ;
     -webkit-transform: scale(1.2) ;
@@ -135,7 +136,7 @@ button#cursos:hover{
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-}
+}*/
 div.spinner-grow{
     margin-left: 48.5%;
 }
