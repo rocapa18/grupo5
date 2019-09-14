@@ -3,15 +3,13 @@
     box-sizing: border-box;
 
 }
-body{
-    ;
-}
+
 
 div.container-fluid {
     /*width: 100%;*/
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
-    height: 100vh;
+    
 }
 
 nav#principal{
@@ -84,7 +82,7 @@ div.animation #particles-js{
 div.mainlogo h1{
     position: relative;
     text-align: center;
-    padding-top: 4vh;
+    padding-top: 3vh;
     font-family: "aller";
     color:white;
 
@@ -92,7 +90,7 @@ div.mainlogo h1{
 div.mainlogo h3{
     position: relative;
     text-align: center;
-    padding-top: 1vh;
+    padding-top: 0vh;
     font-family: "aller";
     font-size: 1.5em;
     color: white;
@@ -103,10 +101,10 @@ div.mainlogo figure img {
     margin-left: 40%; 
 
 }
-div#cursos{
+button#cursos{
     margin-left: 40%;
     width: 20%;
-    height: 7vh;
+    height: 8vh;
     background-color: rgb(248, 147, 31);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -115,8 +113,9 @@ div#cursos{
     -o-border-radius: 20px;
     text-align: center;
     padding-top: 1vh;
+    z-index: 100000;
 }
-div#cursos a{
+button#cursos a{
     color: white;
     font-family: "aller";
     font-size: 1.4em;
@@ -124,7 +123,7 @@ div#cursos a{
     
 
 } 
-div#cursos a:hover{
+button#cursos:hover{
 
     transform: scale(1.2) ;
     -webkit-transform: scale(1.2) ;
@@ -138,7 +137,7 @@ div#cursos a:hover{
     -o-transition: 0.5s;
 }
 div.spinner-grow{
-    margin-left: 48%;
+    margin-left: 48.5%;
 }
 #redesSociales ul{
     width: 120%;
