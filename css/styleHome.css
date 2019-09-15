@@ -6,11 +6,14 @@
 
 
 div.container-fluid {
-    /*width: 100%;*/
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
     height: 100vh;
     
+}
+
+ul.nav-pills li{
+    display: none;
 }
 
 nav#principal{
@@ -59,7 +62,7 @@ nav#principal ul li{
     
 }
 nav#principal ul li a{
-    /*width: 100%;*/
+    
     padding-left: 0%;
     color: white;
     text-align: center;
@@ -77,9 +80,8 @@ nav#principal ul li#faq{
 
 }
 div.animation #particles-js{
-    width: 80%;
+    width: 90%;
 	height: 100vh;
-	/*margin-left: 10%;*/
 	min-height: 300px;
 	position: absolute;
 
@@ -125,15 +127,8 @@ button a {
     color: white;
     font-family: "aller";
     font-size: 1.4em;
-    
-    
-    
-    
-    
-    
-    
+}
 
-} 
 button:hover{
     transform: scale(1.2) ;
     -webkit-transform: scale(1.2) ;
@@ -166,11 +161,8 @@ div.spinner-grow{
     float: left;
     list-style:none;
     width: 4%;
-    
-    
-    
-    
 }
+
 #redesSociales ul li a i{
     position: relative;
     color: white;
@@ -190,7 +182,146 @@ div.spinner-grow{
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
 }
-#redesSociales small{
-    color: white;
-    margin-left: 42%;
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    bottom: 0vh;
+    left: 42%;
+
 }
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1em;
+
+}
+
+@media (max-width:767px){
+    nav#principal img{
+        width: 10%;
+        top: 0vh;
+    }
+    nav#principal h2{
+        float: left;
+        position: relative;
+        width: 30%;
+        top: 1vh;
+        left: 2%;
+        color: white;
+        font-family: "aldo";
+        font-size: 1.4em;
+        
+    
+    }
+    nav#principal ul{
+        display: none;
+    }
+    ul.nav-pills li{
+        display: block;
+        position: relative;
+        background-color: rgb(248, 147, 31);
+        margin-right: 2%;
+        margin-top: 2vh;
+        width: 35%;
+        border-radius: 15px;
+        -webkit-border-radius: 15px    ;
+        -moz-border-radius: 15px    ;
+        -ms-border-radius: 15px    ;
+        -o-border-radius: 15px    ;
+    }
+    ul.nav-pills li a{
+        color: white;
+        text-align: center;
+        font-family: "aller";
+        font-size: 1.2em;
+        
+    }
+    
+
+
+    div.dropdown-menu{
+        background-color: rgb(35, 61, 88);
+
+    }
+
+    div.mainlogo h1{
+        padding-top: 6vh;
+        font-size: 1.5em;
+    }
+
+    div.mainlogo h3{
+        padding-top: 1vh;
+        font-size: 1.2em;
+        
+    }
+    div.mainlogo figure img {
+        width: 60%;
+        padding-top: 8vh;
+        margin-left: 21%; 
+    
+    }
+    div.mainlogo button{
+        margin-left: 23%;
+        margin-top: 5vh;
+        width: 55%;
+        height: 5vh;
+        text-align: center;
+        padding-top: 0vh;
+        
+    }
+    button#cursos a {
+        position: relative;
+        color: white;
+        font-size: 1.2em;
+        
+    }
+    div.spinner-grow{
+        margin-left: 45%;
+    }
+
+    div#redesSociales{
+        margin-left: 0%;
+
+    }
+    div#redesSociales ul{
+        
+        margin-left: 10%;
+        overflow: hidden;
+        padding-left: 0%;
+        padding-top: 4vh;
+        
+
+    }
+    
+    div#redesSociales ul li{
+    
+        float: left;
+        list-style:none;
+        width: 12%;
+        
+    }
+        
+    div#redesSociales ul li a i{
+        position: relative;
+        color: white;
+        font-size: 1.7em;
+        margin-left: 1%;
+    }
+    div#copy{
+        position: relative;
+        margin-top: 2vh;
+        bottom: 0vh;
+        left: 23%;
+
+    }
+
+    div#copy h4{
+        color: white;
+        font-family: "aldo";
+        font-size: 1em;
+
+    }
+}    
+
+
