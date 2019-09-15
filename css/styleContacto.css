@@ -1,0 +1,17 @@
+.mainperfil{
+    width: 50%;
+}
+
+.titulo{
+    color: #FFF;
+    text-align: center;
+}
+
+form label{
+    color: #FFF;
+}
+
+.lineahorizontal{
+    border-width: 1px;
+    border-color: #FFF;
+}
