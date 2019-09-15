@@ -80,7 +80,7 @@ nav#principal ul li#faq{
 
 }
 div.animation #particles-js{
-    width: 90%;
+    width: 100%;
 	height: 100vh;
 	min-height: 300px;
 	position: absolute;
@@ -202,6 +202,7 @@ div#copy h4{
         width: 10%;
         top: 0vh;
     }
+
     nav#principal h2{
         float: left;
         position: relative;
@@ -211,12 +212,12 @@ div#copy h4{
         color: white;
         font-family: "aldo";
         font-size: 1.4em;
-        
-    
     }
+
     nav#principal ul{
         display: none;
     }
+
     ul.nav-pills li{
         display: block;
         position: relative;
@@ -238,8 +239,6 @@ div#copy h4{
         
     }
     
-
-
     div.dropdown-menu{
         background-color: rgb(35, 61, 88);
 
@@ -322,6 +321,129 @@ div#copy h4{
         font-size: 1em;
 
     }
-}    
+} 
+
+@media (max-width:991px) and (min-width:768px){
+    nav#principal img{
+        width: 4%;
+        top: 2.5vh;
+       
+    }
+
+    nav#principal h2{
+        width: 15%;
+        top: 2.5vh;
+        font-size: 1.4em;
+    
+    }
+
+    nav#principal ul{
+        left: 16%;
+        top: 3vh;
+        width: 60%;
+        right: 0%;
+        
+        
+        
+    }
+    
+    nav#principal ul li{
+        
+        left: 60%;
+        width: 16%;
+        margin-left:0%; 
+          
+    }
+
+    nav#principal ul li a{
+        
+        padding-left: 6%;
+        font-size: 1em;
+    
+    }
+    
+    
+    nav#principal ul li#faq{
+        padding-left: 5%;
+    
+    }
+
+    div.mainlogo h1{
+        position: relative;
+        text-align: center;
+        padding-top: 6vh;
+        font-family: "aldo";
+        font-size: 2.6em;
+        color:white;
+    
+    }
+    div.mainlogo h3{
+        position: relative;
+        text-align: center;
+        padding-top: 0vh;
+        font-family: "aldo";
+        font-size: 1.8em;
+        color: white;
+    }
+    div.mainlogo figure img {
+        width: 45%;
+        padding-top: 8vh;
+        margin-left: 28.5%; 
+    
+    }
+    div.mainlogo button{
+        margin-left: 34%;
+        margin-top: 3vh;
+        width: 35%;
+        height: 6vh;
+        padding-top: 0vh;
+        
+    }
+    button a {
+        color: white;
+        font-family: "aller";
+        font-size: 1.4em;
+    }
+    #redesSociales ul{
+        margin-bottom: 0vh;
+        margin-top: 3vh;
+        padding-left: 28%;
+        padding-top: 3%;
+        
+        
+    }
+    #redesSociales ul li{
+    
+        width: 4%;
+        margin-left: 3.8%;
+        
+    }
+    
+    #redesSociales ul li a i{
+        position: relative;
+        color: white;
+        font-size: 2.2em;
+        margin-left: 1%;
+    }
+    div#copy{
+        position: relative;
+        margin-top: 5vh;
+        bottom: 0vh;
+        left: 37%;
+    
+    }
+    
+    div#copy h4{
+        color: white;
+        font-family: "aldo";
+        font-size: 1.2em;
+    
+    }
+
+
+
+
+
+}
 
 
