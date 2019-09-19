@@ -1,0 +1,186 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+/* for mobile phone */
+div.container-fluid {
+    /*width: 100%;*/
+    background-color: rgb(35, 61, 88);
+    max-width: 1200px;
+
+}
+nav#principal{
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+}
+nav#principal img{
+    float: left;
+    position: relative;
+    width: 4%;
+    top: 1vh;
+    left: 1%;
+}
+nav#principal h2{
+    float: left;
+    position: relative;
+    width: 15%;
+    top: 2vh;
+    left: 2%;
+    color: white;
+    font-family: "aldo";
+    font-size: 1.6em;
+
+}
+nav#principal ul{
+    overflow: hidden;
+    float: left;
+    left: 28%;
+    top: 3vh;
+    width: 55%;
+    position: relative;
+    right: 1%;
+}
+
+nav#principal ul li{
+
+    float: left;
+    left: 60%;
+    width: 14%;
+    margin-left:2%;
+    list-style: none;
+
+}
+nav#principal ul li a{
+    width: 40%;
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+    font-family: 'aldo';
+    font-size: 1.2em;
+
+}
+nav#principal ul li#faq{
+    padding-left: 4%;
+
+}
+div.animation #particles-js{
+    width: 80%;
+	height: 100vh;
+	/*margin-left: 10%;*/
+	min-height: 300px;
+	position: absolute;
+}
+.photo{
+  width: 100%;
+}
+.photo-container{
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+
+}
+.more{
+  display: block;
+  background-color: grey;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  width:20%;
+  font-family: "aller";
+  border-radius: 5%
+}
+article{
+  margin-bottom: 10px;
+}
+section article .product{
+  margin-bottom: 20px;
+}
+h2{
+  color:white;
+  font-family: "aller";
+}
+p{
+  color:white;
+  font-family: "aller";
+}
+section article img{
+  width: 100%;
+}
+
+#redesSociales ul li{
+
+    float: left;
+    list-style:none;
+    width:5%;
+}
+#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 1%;
+
+}
+#redesSociales small{
+    color: white;
+    margin-left: 42%;
+}
+/* for desktop */
+@media only screen and (min-width: 1180px){
+section{
+  overflow:hidden;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  padding-left: 10%;
+
+}
+article.product{
+  float: left;
+  width: 20%;
+  margin-left: 20px;
+}
+.more{
+  display: block;
+  background-color: grey;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  width:120px;
+  font-family: "aller";
+  border-radius: 5%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
