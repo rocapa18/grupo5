@@ -325,7 +325,7 @@ div#copy h4{
 
 @media (max-width:991px) and (min-width:768px){
     nav#principal img{
-        width: 4%;
+        width: 3%;
         top: 2.5vh;
        
     }
@@ -439,11 +439,80 @@ div#copy h4{
         font-size: 1.2em;
     
     }
-
-
-
-
-
 }
 
+/*@media (min-width:1200px){
+
+    nav#principal img{
+        width: 3%;
+        top: 1vh;
+        left: 1%;
+    }
+
+    div#copy{
+        position: relative;
+        margin-top: 5vh;
+        bottom: 0vh;
+        left: 45%;
+    }
+
+    nav#principal img{
+    
+        width: 4%;
+        top: 1vh;
+        left: 1%;
+    }
+    nav#principal h2{
+        float: left;
+        position: relative;
+        width: 15%;
+        top: 3vh;
+        left: 2%;
+        color: white;
+        font-family: "aldo";
+        font-size: 1.8em;
+
+    }
+    nav#principal ul{
+        left: 22%;
+        top: 4vh;
+        width: 60%;
+        right: 0%;
+    }
+    
+    nav#principal ul li{
+        
+        left: 62%;
+        width: 16%;
+        margin-left:0%;
+          
+    }
+
+    nav#principal ul li a{
+        
+        padding-left: 4%;
+        font-size: 1.4em;
+    
+    }
+    div.mainlogo h1{
+        position: relative;
+        text-align: center;
+        padding-top: 3vh;
+        font-size: 3em;
+        font-family: "aldo";
+        color:white;
+    
+    }
+    div.mainlogo h3{
+        position: relative;
+        text-align: center;
+        padding-top: 0vh;
+        font-family: "aldo";
+        font-size: 1.8em;
+        color: white;
+    }
+    div.mainlogo button{
+        margin-left: 39.6%;
+    }
+}*/
 
