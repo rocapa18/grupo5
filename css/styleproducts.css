@@ -77,38 +77,71 @@ div.animation #particles-js{
 }
 .photo-container{
   position: relative;
-  margin-top: 50px;
+  margin-top: 2vh;
   text-align: center;
 
 }
-.more{
+.photo-container img{
+  width: 100%;
+  border-radius: 10px ;
+}
+
+article{
+  margin-bottom: 10px;
+  height: 60vh;
+  
+}
+div.titulo{
+  margin-top: 1vh;
+  height: 12vh;
+  border: 1px solid white;
+  align-content: center;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+}
+
+div.titulo h2{
+  color:white;
+  font-family: "aller";
+  font-size: 1.4em;
+  padding-top: 2vh;
+}
+div.descripcion p{
+  color:white;
+  font-family: "aller";
+  font-size: 1em;
+  margin-top: 2vh; 
+
+}
+
+
+
+a.more{
   display: block;
-  background-color: grey;
+  background-color: rgb(248, 147, 31);
   text-decoration: none;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
   color: white;
-  width:20%;
+  width:45%;
   font-family: "aller";
-  border-radius: 5%
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
-article{
-  margin-bottom: 10px;
-}
-section article .product{
-  margin-bottom: 20px;
-}
-h2{
-  color:white;
-  font-family: "aller";
-}
-p{
-  color:white;
-  font-family: "aller";
-}
-section article img{
+#redesSociales ul{
   width: 100%;
+  height: 6vh;
+  padding-top: 1vh;
+  padding-left: 41%;
+  text-align: center;
+  
 }
 
 #redesSociales ul li{
@@ -116,6 +149,7 @@ section article img{
     float: left;
     list-style:none;
     width:5%;
+    
 }
 #redesSociales ul li a i{
     position: relative;
