@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .mainperfil{
     width: 50%;
 }
@@ -33,40 +32,4 @@ form label{
 .cuerpoperfil{
     position: relative;
     float: left;
-=======
-.mainperfil{
-    width: 50%;
-}
-
-.titulo{
-    color: #FFF;
-    text-align: center;
-}
-
-form label{
-    color: #FFF;
-}
-
-.lineahorizontal{
-    border-width: 1px;
-    border-color: #FFF;
-}
-
-.imagenperfil{
-    border-radius: 5%;
-    width: 150px;
-    height: 150px;
-}
-
-.textoperfil{
-    color: #FFF;
-    position: relative;
-    float: left;
-    margin-left: 15px;
-}
-
-.cuerpoperfil{
-    position: relative;
-    float: left;
->>>>>>> bbb5a282e3a7ae1fba7c42c70b1ea2de5e411ebc
 }

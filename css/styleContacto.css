@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .mainperfil{
     width: 50%;
 }
@@ -16,22 +15,3 @@ form label{
     border-width: 1px;
     border-color: #FFF;
 }
-=======
-.mainperfil{
-    width: 50%;
-}
-
-.titulo{
-    color: #FFF;
-    text-align: center;
-}
-
-form label{
-    color: #FFF;
-}
-
-.lineahorizontal{
-    border-width: 1px;
-    border-color: #FFF;
-}
->>>>>>> bbb5a282e3a7ae1fba7c42c70b1ea2de5e411ebc
