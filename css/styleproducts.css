@@ -547,7 +547,7 @@ div.descripcion p{
   width: 100%;
   height: 6vh;
   padding-top: 1vh;
-  padding-left: 25%;
+  padding-left: 35%;
   text-align: center;
   
   
@@ -557,7 +557,7 @@ div.descripcion p{
 
     float: left;
     list-style:none;
-    width:65%;
+    width:8%;
     
     
 }
@@ -565,7 +565,7 @@ div.descripcion p{
     position: relative;
     color: white;
     font-size: 1.7em;
-    margin-left: 2%;
+    margin-left: 4%;
     
     
 
