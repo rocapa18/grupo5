@@ -81,7 +81,7 @@ nav#principal ul li#faq{
 }
 div.animation #particles-js{
     width: 100%;
-	height: 100vh;
+	/*height: 100vh;*/
 	min-height: 300px;
 	position: absolute;
 
