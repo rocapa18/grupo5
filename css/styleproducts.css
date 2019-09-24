@@ -3,13 +3,20 @@
     box-sizing: border-box;
 
 }
-/* for mobile phone */
+
 div.container-fluid {
     width: 100%;
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
 
 }
+
+
+
+/* for mobile phone */
+
+
+
 @media (max-width:767px){
 nav#principal ul{
     display: none;
@@ -99,6 +106,7 @@ nav#principal ul li#faq{
 
 }
 div.animation #particles-js{
+    display: none;
     width: 90%;
 	height: 180vh;
 	margin-left: 2%;

@@ -288,7 +288,7 @@ div#copy h4{
         
     }
     div#titulo {
-        width: 98%;
+        width: 100%;
         float: left;
         margin-top: 2vh;
         color: white;
@@ -346,7 +346,11 @@ div#copy h4{
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         margin-top: 6vh;
-        font-size: 1.2em;
+        font-size: 1.3em;
+    }
+    section button a{
+        color: white;
+
     }
     
     
@@ -403,6 +407,11 @@ div#copy h4{
 
 
 @media (max-width:1024px) and (min-width:768px){
+  nav#principal{
+    height: 8vh;
+
+  }
+
   nav#principal img{
       width: 3%;
       top: 2.5vh;
@@ -446,5 +455,120 @@ div#copy h4{
       padding-left: 5%;
 
   }
-  
+  article.curso{
+    overflow: hidden;
+    
+    }
+  div#titulo {
+    width: 100%;
+    float: left;
+    margin-top: 0vh;
+    color: white;
+
+  }   
+  div#titulo h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'aldo';
+    font-size: 2em;
+    color: white;
+  }
+  div#titulo h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'aldo';
+    font-size:1.6em; 
+    color: white;
+}
+
+  div#titulo p{
+    /*display:none;*/
+    text-align: center;
+    font-size:1.2em
+  }
+
+div#titulo h3{
+    /*display: none;*/
+    
+}
+div#titulo ul{
+    color: white;
+    font-family: "aller";
+    margin-left:12%;
+    display: block;
+    font-size: 1em;
+}
+
+article.curso video{
+    float: left;
+    width: 80%;
+    margin-top: 2vh;
+    margin-left: 10%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+section button{
+    margin-left: 30%;
+    width: 40%;
+    height: 5vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 4vh;
+    font-size: 1.8em;
+    
+    
+}
+section button a{
+    position: relative;
+    color:white;
+       
+}
+div#redesSociales{
+    margin-left: 0%;
+    margin-top: 1vh;
+
+}
+div#redesSociales ul{
+    
+    margin-left: 27%;
+    overflow: hidden;
+    padding-left: 0%;
+    padding-top: 2vh;
+    
+
+}
+
+div#redesSociales ul li{
+
+    float: left;
+    list-style:none;
+    width: 7%;
+    
+}
+    
+div#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 1%;
+}
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1em;
+    padding-left: 0%;
+}
 }
