@@ -15,3 +15,7 @@ form label{
     border-width: 1px;
     border-color: #FFF;
 }
+
+button.boton-submit{
+    color: #fff;
+}

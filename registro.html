@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styleHome.css">
     <link rel="stylesheet" href="css/stylePerfil.css">
+    <link rel="stylesheet" href="css/styleRegistro.css">
     <link rel="stylesheet" href="css/aldo.css">
     <link rel="stylesheet" href="css/aller.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -17,10 +18,26 @@
     <div class="container-fluid">
             
         <header>
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="home.html">HOME</a>
+                        <a class="dropdown-item" href="registro.html">REGISTRO</a>
+                        <a class="dropdown-item" href="ingreso.html">INGRESO</a>
+                        <a class="dropdown-item" href="contacto.html">CONTACTO</a>
+                        <a class="dropdown-item" href="perfil.html">PERFIL</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                        
+                    </div>
+                </li>
+            </ul>   
+
             <div class="nav">
                 <nav id="principal">
                     <img src="img/logo4.png" alt="logo" id="logoChico">
                     <h2>DH - Grupo 5</h2>
+    
                     <ul>
                         <li><a href="home.html">HOME</a></li>
                         <li><a href="registro.html">REGISTRO</a></li>
@@ -72,7 +89,7 @@
                   <input type="password" class="form-control" id="contrasena" name="contrasena2">
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary mb-2">Registrar</button>
+              <button type="submit" class="btn btn-warning mb-2 boton-submit">Registrar</button>
             </form>
         <footer>
 
