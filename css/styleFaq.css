@@ -9,7 +9,9 @@ div.container-fluid {
     height: 120vh;
 }
 
-#faq {
+
+
+li#faq {
     color: rgb(248, 147, 31);
     text-align: left;
     font-family: 'aller';
@@ -21,11 +23,16 @@ p {
 }
 
 .mainperfil{
+    position: relative;
     width: 100%;
+    margin-top: 5vh;
+    
 }
 .mainperfil h1{
+    font-family: 'aldo';
+    font-size: 2.1em;
     width: 50%;
-    margin-top: 5vh;
+    margin-top: 0vh;
 }
 
 .titulo{
@@ -113,9 +120,9 @@ nav#principal ul li#faq{
 
 }
 div.animation #particles-js{
-    width: 90%;
+    width: 95%;
     height: 100vh;
-    margin-left: 2%;
+    margin-left: 0%;
 	min-height: 300px;
 	position: absolute;
 }
@@ -268,7 +275,7 @@ div#copy h4{
       position: relative;
       margin-top: 2vh;
       bottom: 0vh;
-      left: 24%;
+      left: 16%;
 
   }
 
@@ -345,50 +352,66 @@ p {
         padding-left: 5%;
 
     }
-
-    .mainperfil h1{
-        width: 50%;
-        margin-top: 8vh;
+    .mainperfil{
+       margin-top: 0vh;
+        
     }
+
+    
     div.form-group{
         margin-top: 10vh;
         width: 80%;
         margin-left: 10%;
     }
+    
 
-    #redesSociales ul{
-        position: relative;
-        margin-bottom: 0vh;
-        padding: none;
-        margin-top: 3vh;
-        padding-top: 3%;
-
-
+    div#redesSociales{
+        height: 10vh;
+        margin-left: 0%;
+        margin-top: 1vh;
+    
     }
+    div#redesSociales ul{
+        
+        margin-left: 16%;
+        overflow: hidden;
+        padding-left: 0%;
+        margin-top: 18vh;
+       
+        
+    
+    }
+    
     div#redesSociales ul li{
-        width: 10%;
-        font-size: 1.3em;
-        padding-left: 13%;
+    
+        float: left;
+        list-style:none;
+        width: 12%;
+        
     }
-
-    #redesSociales ul li a i{
-        font-size: 2em;
-        margin-left: 15%;
+        
+    div#redesSociales ul li a i{
+        position: relative;
+        color: white;
+        font-size: 1.2em;
+        margin-left: 0%;
     }
     div#copy{
-        margin-top: 5vh;
-        bottom: 0vh;
-        left: 35%;
-
+        position: relative;
+        width: 100%;
+        position: relative;
+        margin-top: 3vh;
+        margin-left: -25%;
+        
+        
+    
     }
-
+    
     div#copy h4{
         color: white;
-        margin-right: 20px;
-        text-align: left;
         font-family: "aldo";
-        font-size: 1.2em;
-
+        font-size: 1em;
+        padding-left: 20%;
     }
     div.container-fluid {
         background-color: rgb(35, 61, 88);
