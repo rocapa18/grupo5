@@ -50,7 +50,7 @@ button.btn-primary{
     position: relative;
     margin-left: 35%;
     width: 20%;
-    margin-top: 8vh;
+    margin-top: 5vh;
     border-radius: 20px;
     font-family: 'aller';
     font-size: 1.4em;
@@ -247,7 +247,7 @@ div#copy h4{
     nav#principal ul{
         display: none;
     }
-
+    
     ul.nav-pills li{
         display: block;
         position: relative;
@@ -320,6 +320,34 @@ div#copy h4{
         font-size: 1em;
 
     }
+    .mainperfil{
+        width: 95%;
+    }
+    div.form-group{
+        width: 95%;
+
+    }
+    button.btn{
+        width: 50%;
+        margin-left: 10%;
+
+    }
+    .mainperfil h1{
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    .titulo{
+        color: #FFF;
+        text-align: center;
+    }
+    
+    form {
+       
+        width: 95%;
+        left: 0%;
+    }
+
 }
 
 
@@ -400,7 +428,7 @@ div#copy h4{
     #redesSociales ul{
         margin-bottom: 0vh;
         margin-top: 3vh;
-        padding-left: 14%;
+        margin-left: -18%;
         padding-top: 3%;
 
 
@@ -431,6 +459,10 @@ div#copy h4{
         font-family: "aldo";
         font-size: 1.2em;
 
+    }
+    div.animation #particles-js{
+        display: none;
+    
     }
 }
 

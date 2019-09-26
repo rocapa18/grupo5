@@ -186,6 +186,12 @@ div#copy h4{
 /* PHONE */
 
 @media (max-width:767px){
+    div.container-fluid {
+        background-color: rgb(35, 61, 88);
+        max-width: 1200px;
+        height: 200vh;
+    }
+
     nav#principal{
         overflow: hidden;
         width: 100%;
@@ -289,25 +295,41 @@ div#copy h4{
 
     div.animation #particles-js{
           display: none;
-        }
-    div.container-fluid {
-        background-color: rgb(35, 61, 88);
-        max-width: 1200px;
-        height: 220vh;
-     }
+  }
+  .mainperfil{
+    width: 100%;
+    margin-top: 0vh;
 
-#faq {
+  }
+  
+  .mainperfil h1{
+    
+    font-size: 1.8em;
+    width: 70%;
+    margin-top: 0vh;
+}
+
+.titulo{
+    color: #FFF;
+    text-align: center;
+}
+
+
+li#faq {
+    position: relative;
     color: rgb(248, 147, 31);
     text-align: left;
     font-family: 'aller';
     font-weight: bold;
+    width: 98%;
     }
 p {
     color: #FFF;
     text-align: left;
-    margin: 20px;
+    margin: 0px;
+    width: 98%;
     }
-    }
+}
 
 /* TABLET */
 

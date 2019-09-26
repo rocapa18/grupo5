@@ -1,3 +1,77 @@
 button.boton-submit{
     color: #fff;
+    width: 25%;
+    background-color: rgb(248, 147, 31);
+    border-radius: 20px;;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+button.btn {
+    color: white;
+    font-family: "aller";
+    font-size: 1.4em;
+}
+
+
+.mainperfil{
+    width: 50%;
+}
+
+.titulo{
+    margin-top: 8vh;
+}
+
+
+
+
+
+@media (max-width:767px){
+    button.boton-submit{
+        
+        width: 70%;
+        background-color: rgb(248, 147, 31);
+        border-radius: 20px;;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: 4vh;
+    }
+
+    button.btn {
+        color: white;
+        font-family: "aller";
+        font-size: 1.2em;
+    }
+    .titulo{
+        margin-top: 2vh;
+    }
+    .mainperfil{
+        width: 80%;
+    }
+    div.animation #particles-js{
+        display: none;
+    
+    }
+
+}
+@media (max-width:991px) and (min-width:768px){
+    button.btn{
+        width: 50%;
+        color: white;
+        font-family: "aller";
+        font-size: 1.4em;  
+    
+    }
+    .titulo{
+        margin-top: 8vh;
+        font-family: 'aldo';
+    }
+    
+
+
+
+
 }

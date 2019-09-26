@@ -5,6 +5,7 @@
 .titulo{
     color: #FFF;
     text-align: center;
+    margin-top: 8vh;
 }
 
 form label{
@@ -20,16 +21,51 @@ form label{
     border-radius: 5%;
     width: 150px;
     height: 150px;
+    margin-top: 8vh;
 }
 
 .textoperfil{
     color: #FFF;
     position: relative;
     float: left;
-    margin-left: 15px;
+    margin-left: 8%;
+    margin-top: 10vh;
 }
 
 .cuerpoperfil{
     position: relative;
     float: left;
+}
+@media (max-width:767px){
+    .mainperfil{
+        width: 95%;
+    }
+    .imagenperfil{
+        border-radius: 5%;
+        width: 70%;
+        margin-left: 35%;
+        
+        margin-top: 8vh;
+    }
+    div.animation #particles-js{
+        display: none;
+    
+    }
+
+
+
+}
+
+@media (max-width:991px) and (min-width:768px){
+.imagenperfil{
+    border-radius: 5%;
+    width: 70%;
+    margin-left: 45%;
+    
+    margin-top: 8vh;
+}
+div.animation #particles-js{
+    display: none;
+
+}
 }

@@ -16,6 +16,79 @@ form label{
     border-color: #FFF;
 }
 
+
 button.boton-submit{
     color: #fff;
+    width: 45%;
+    background-color: rgb(248, 147, 31);
+    border-radius: 20px;;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+button.btn{
+    color: white;
+    font-family: "aller";
+    font-size: 1.4em;  
+
+}
+@media (max-width:767px){
+    .mainperfil{
+        width: 90%;
+    }
+
+
+    button.boton-submit{
+        width: 70%;
+        margin-top: 3vh;
+    }
+    .titulo{
+        margin-top: 2vh;
+
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .mainperfil{
+        width: 95%;
+    }
+    
+    .titulo{
+        width: 95%;
+        color: #FFF;
+        text-align: center;
+        font-family: 'aldo';
+        font-size: 2em;
+    }
+    
+    label.col-sm-2 {
+        width: 80%;
+        color: #FFF;
+        font-family: 'aller';
+        font-size: 1.3em;
+        
+    }
+    textarea{
+        width: 75%;
+        
+    }
+    input#email{
+        width: 75%;
+
+
+    }
+    
+    .lineahorizontal{
+        border-width: 1px;
+        border-color: #FFF;
+    }
+    div.animation #particles-js{
+       display: none;
+    
+    }
+    button.btn{
+        
+        margin-top: 6vh; 
+    
+    }
 }
