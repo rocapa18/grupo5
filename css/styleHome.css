@@ -258,6 +258,10 @@ div#copy h4{
         background-color: rgb(35, 61, 88);
 
     }
+    div.animation #particles-js{
+        display: none;
+
+    }
 
     div.mainlogo h1{
         padding-top: 6vh;
