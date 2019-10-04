@@ -339,6 +339,12 @@ p {
         top: 2.5vh;
 
     }
+    
+    div.animation #particles-js{
+        display: none;
+
+    }
+
 
     nav#principal h2{
         width: 20%;

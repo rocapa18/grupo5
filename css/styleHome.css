@@ -348,6 +348,12 @@ div#copy h4{
         top: 2.5vh;
        
     }
+    div.animation #particles-js{
+        display: none;
+
+    }
+
+
 
     nav#principal h2{
         width: 15%;
@@ -377,7 +383,7 @@ div#copy h4{
     nav#principal ul li a{
         
         padding-left: 6%;
-        font-size: 1em;
+        font-size: 1.2em;
     
     }
     

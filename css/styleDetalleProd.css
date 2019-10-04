@@ -5,7 +5,7 @@
 }
 /* for desktop */
 div.container-fluid {
-    /*width: 100%;*/
+    width: 100%;
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
     height: 100vh;
@@ -91,7 +91,7 @@ nav#principal ul li#faq{
 
 
 #redesSociales ul{
-    width: 120%;
+    width: 100%;
     overflow: hidden;
     margin-bottom: 0vh;
     padding-left: 41%;
@@ -355,6 +355,7 @@ div#copy h4{
     
     
     div#redesSociales{
+        
         margin-left: 0%;
         margin-top: 8vh;
 
@@ -397,6 +398,11 @@ div#copy h4{
         padding-left: 0%;
 
     }
+    div.animation #particles-js{
+        display: none;
+
+    }
+
 
 }  
 /* for tablet */
@@ -412,6 +418,10 @@ div#copy h4{
 
   }
 
+  div.animation #particles-js{
+    display: none;
+
+  }
   nav#principal img{
       width: 3%;
       top: 2.5vh;
