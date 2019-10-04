@@ -2,13 +2,16 @@
     margin: 0 auto;
     box-sizing: border-box;
     
+    
 }
+
 
 
 div.container-fluid {
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
-    height: 100vh;
+    height: 120vh;
+    
     
 }
 
@@ -273,10 +276,13 @@ div#copy h4{
         font-size: 1.2em;
         
     }
+    
+
     div.mainlogo figure img {
-        width: 60%;
+        padding: 0px;
+        width: 58%;
         padding-top: 8vh;
-        margin-left: 21%; 
+        margin-left: 20%; 
     
     }
     div.mainlogo button{
@@ -304,7 +310,7 @@ div#copy h4{
     }
     div#redesSociales ul{
         
-        margin-left: 10%;
+        margin-left: 12%;
         overflow: hidden;
         padding-left: 0%;
         padding-top: 4vh;
@@ -316,7 +322,7 @@ div#copy h4{
     
         float: left;
         list-style:none;
-        width: 12%;
+        width: 11%;
         
     }
         
