@@ -20,8 +20,61 @@ button.btn {
 }
 
 .titulo{
-    margin-top: 8vh;
+    margin-top: 2vh;
 }
+
+#redesSociales ul{
+    width: 120%;
+    overflow: hidden;
+    margin-bottom: 0vh;
+    padding-left: 41%;
+    padding-top: 5%;
+    
+}
+#redesSociales ul li{
+
+    float: left;
+    list-style:none;
+    width: 4%;
+}
+
+#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 1%;
+}
+
+#redesSociales ul li a i:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    bottom: 0vh;
+    left: 42%;
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1em;
+
+}
+
+
+
+
 
 
 
@@ -58,6 +111,13 @@ button.btn {
 
 }
 @media (max-width:991px) and (min-width:768px){
+    button.boton-submit{
+        
+        width: 70%;
+        margin-top: 5vh;
+    }
+
+
     button.btn{
         width: 50%;
         color: white;
@@ -70,8 +130,32 @@ button.btn {
         font-family: 'aldo';
     }
     
+    #redesSociales ul{
+        width: 100%;
+        overflow: hidden;
+        margin-top: -5vh;
+        
+        margin-left: -10%;
+        
+        
+    }
+    #redesSociales ul li{
+    
+        float: left;
+        list-style:none;
+        width: 4%;
+    }
 
+    div#copy{
+        position: relative;
+        margin-top: 2vh;
+        bottom: 0vh;
+        left: 34%;
+    
+    }
+    button.boton-submit{
+        margin-top: 4vh; 
 
-
+    }
 
 }

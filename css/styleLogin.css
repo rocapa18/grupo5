@@ -48,7 +48,7 @@ div.form-group label{
 }
 button.btn-primary{
     position: relative;
-    margin-left: 35%;
+    margin-left: 40%;
     width: 20%;
     margin-top: 5vh;
     border-radius: 20px;
@@ -156,14 +156,15 @@ div.animation #particles-js{
 div#redesSociales{
     height: 15vh;
     margin-top: 8vh;
+    margin-left: 8%;
 }
 
 
 div#redesSociales ul{
     overflow: hidden;
     margin-bottom: 0vh;
-    margin-top: 0vh;
-    padding-left: 33%;
+    
+    padding-left: 30%;
     
 }
 
@@ -171,8 +172,9 @@ div#redesSociales ul li{
     float: left;
     list-style:none;
     width: 5%;
-    font-size: 1.8em;
+    font-size: 1.6em;
     padding-left: 5%;
+    margin-top: 4vh;
 }
 
 #redesSociales ul li a i {

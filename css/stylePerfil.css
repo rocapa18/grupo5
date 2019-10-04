@@ -36,6 +36,63 @@ form label{
     position: relative;
     float: left;
 }
+
+#redesSociales ul{
+    width: 120%;
+    overflow: hidden;
+    margin-bottom: 0vh;
+    padding-left: 41%;
+    padding-top: 25vh;
+    
+}
+#redesSociales ul li{
+
+    float: left;
+    list-style:none;
+    width: 4%;
+}
+
+#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 1%;
+}
+
+#redesSociales ul li a i:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    bottom: 0vh;
+    left: 42%;
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1em;
+
+}
+
+
+
+
+
+
+
+
 @media (max-width:767px){
     .mainperfil{
         width: 95%;
@@ -51,21 +108,105 @@ form label{
         display: none;
     
     }
+    .titulo{
+        margin-top: 3vh;
+    }
+
+
+    .imagenperfil{
+        
+        margin-top: 5vh;
+    }
+    
+    .textoperfil{
+        
+        margin-left: 8%;
+        margin-top: 6vh;
+    }
+
+    #redesSociales ul li{
+        margin-top: 14vh;
+
+    }
+
+
+
+    div#copy{
+        
+        left: 25%;
+        top:2vh;
+
+    
+    }
 
 
 
 }
 
 @media (max-width:991px) and (min-width:768px){
+
+nav#principal ul{
+    width: 70%;
+    
+}
+
+.titulo{
+    margin-top: 3vh;
+}    
 .imagenperfil{
     border-radius: 5%;
     width: 70%;
     margin-left: 45%;
     
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 div.animation #particles-js{
     display: none;
 
 }
+
+.textoperfil{
+        
+    margin-left: 12%;
+    
+}
+
+#redesSociales ul{
+
+    margin-bottom: 0vh;
+    
+    padding-left: 28%;
+    padding-top: 3%;
+    
+    
+}
+#redesSociales ul li{
+
+    width: 4%;
+    margin-left: 3.8%;
+    margin-top: 25vh;
+    
+}
+
+#redesSociales ul li a i{
+    position: relative;
+    color: white;
+    font-size: 2.2em;
+    margin-left: 1%;
+}
+div#copy{
+    position: relative;
+    margin-top: 5vh;
+    bottom: 0vh;
+    left: 37%;
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1.2em;
+
+}
+
 }

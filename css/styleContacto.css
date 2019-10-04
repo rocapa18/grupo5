@@ -1,14 +1,26 @@
-.mainperfil{
+ .mainperfil{
     width: 50%;
 }
 
 .titulo{
     color: #FFF;
     text-align: center;
+    font-family: 'aldo';
+    margin-top: 0vh;
 }
 
+
+
 form label{
+    position: relative;
     color: #FFF;
+    margin-left: 38%;
+    margin-top: 2vh;
+    width: 25%;
+    text-align: center;
+    font-family: 'aller';
+    font-size: 1.1em;
+    
 }
 
 .lineahorizontal{
@@ -18,8 +30,10 @@ form label{
 
 
 button.boton-submit{
+    margin-top: 4vh;
+    margin-left: 30%;
     color: #fff;
-    width: 45%;
+    width: 40%;
     background-color: rgb(248, 147, 31);
     border-radius: 20px;;
     -webkit-border-radius: 20px;
@@ -30,10 +44,33 @@ button.boton-submit{
 button.btn{
     color: white;
     font-family: "aller";
-    font-size: 1.4em;  
+    font-size: 1.4em;   
 
 }
+input#email{
+    position: relative;
+    margin-left: 22%;
+    
+    width: 55%;
+
+}
+div#textarea{
+    position: relative;
+    margin-left: 22%;
+    
+}
+
+
+
+
+
+
 @media (max-width:767px){
+
+   
+
+
+
     .mainperfil{
         width: 90%;
     }
@@ -47,8 +84,40 @@ button.btn{
         margin-top: 2vh;
 
     }
+    div#textarea{
+        position: relative;
+        margin-left: 0%;
+        width: 40%;
+        
+    }
+    input#email{
+        position: relative;
+        margin-left: 1%;
+        
+        width: 100%;
+    }
+    form label{
+        
+        margin-left: 35%;
+           
+    }
+    button.boton-submit{
+        margin-top: 6vh;
+        margin-left: 15%;
+    }
+
+
+
 }
 @media (max-width:991px) and (min-width:768px){
+
+    nav#principal ul{
+        width: 70%;
+    
+       }
+
+
+
     .mainperfil{
         width: 95%;
     }
@@ -58,22 +127,17 @@ button.btn{
         color: #FFF;
         text-align: center;
         font-family: 'aldo';
-        font-size: 2em;
+        font-size: 2.2em;
+        margin-top: 6vh;
     }
     
-    label.col-sm-2 {
-        width: 80%;
-        color: #FFF;
-        font-family: 'aller';
-        font-size: 1.3em;
-        
-    }
+    
     textarea{
-        width: 75%;
+        width: 70%;
         
     }
     input#email{
-        width: 75%;
+        width: 55%;
 
 
     }
@@ -88,7 +152,7 @@ button.btn{
     }
     button.btn{
         
-        margin-top: 6vh; 
+        margin-top: 8vh; 
     
     }
 }
