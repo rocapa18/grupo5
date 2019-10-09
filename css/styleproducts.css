@@ -514,14 +514,6 @@ nav#principal ul li#faq{
     padding-left: 4%;
 
 }
-div.animation #particles-js{
-    width: 90%;
-	height: 180vh;
-	/*margin-left: 10%;*/
-	min-height: 300px;
-	position: absolute;
-}
-
 
 div.titulo{
   margin-top: 1vh;
@@ -599,6 +591,12 @@ div#copy h4{
 
 }
 }
+
+
+
+
+
+
 @media only screen and (min-width: 1180px){
 
 ul.nav-pills{
