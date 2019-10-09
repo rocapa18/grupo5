@@ -1,3 +1,10 @@
+div.phone{
+    display: none;
+}
+div.total{
+    display:none;
+}
+
 div.encabezado{
     overflow: hidden;
     margin-top: 5vh;
@@ -38,6 +45,183 @@ div.encabezado ul li i{
     right: 0%;
 
 }
+ol.breadcrumb{
+    
+    margin-top: 3vh;
+    background-color: rgb(248, 147, 31);
+    
+    
+}
+li.breadcrumb-item h2 {
+    
+    font-family: 'aller';
+    font-size: 1.8em;
+    color: white;
+    
+}
+div#carrito{
+    width: 20%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+div#carrito img{
+    width:36%;
+    right: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+img.img-thumbnail{
+width: 17%;
+
+}
+table.table{
+    overflow: hidden;
+}
+tbody h2{
+    float: right;
+    margin-right: 45%;
+    margin-top: 3vh;
+    color: white;
+    font-family: 'aller';
+    font-size: 1.2em;
+    margin-right: 30%;
+    /*width:50%;*/
+}
+
+td{
+    
+    color:white;
+    font-family: 'aller';
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+tr th{
+    position: relative;
+    font-family: 'aller';
+    font-size: 1.2em;
+    text-align: center;
+    width:70%;
+}
+img.img-thumbnail{
+    width: 30%;
+
+}
+tr th i{
+    color: White;
+    font-size: 1.4em;
+    margin-right: 5%;
+}
+thead tr th{
+    color: white;
+
+}
+
+@media (max-width:767px){
+
+/*main nav{
+    display:none;
+
+}*/
+div.phone{
+    display: block;
+}
+div.total{
+    display:block;
+}
+
+ol.breadcrumb{
+    
+    margin-top: 2vh;
+    background-color: rgb(248, 147, 31);
+    
+    
+}
+li.breadcrumb-item h2 {
+    
+    font-size: 1.2em;
+}
+
+div#carrito{
+    width: 30%;
+    margin-right: 0%;
+}
+
+div#carrito img{
+    width:70%;
+}
+table.table{
+    display: none;
+}
+div.phone{
+    
+    height: 12vh;
+    margin-top: 2vh;
+    border-bottom: solid white 2px;
+}
+div.phone img{
+    width: 30%;
+    margin-left: 2%;
+}
+div.phone h2{
+    color:white;
+    font-family: 'aller';
+    font-size: 1em;
+    margin-left: 2%;
+    margin-top: 1vh;
+}
+div.precio{
+    width: 30%;
+    height: 8vh;
+    margin-left:38%;
+    margin-top:-10vh;
+    text-align: center;
+    
+}
+div.subtotal{
+    width: 30%;
+    height: 8vh;
+    margin-left:70%;
+    margin-top:-9vh;
+    text-align: center;
+    
+
+}
+div.total{
+    width: 90%;
+    height: 10vh;
+    margin-top: 2vh;
+    text-align: center;
+    border-bottom: solid white 2px;
+}
+div.total h2{
+    color: white;
+    font-family: 'aller';
+    font-size: 1em;
+
+}
+
+
+}
+@media (max-width:991px) and (min-width:768px){
+
+    div#carrito img{
+        width:60%;
+        
+    }
+
+    tbody h2{
+        margin-right: 10%;
+       
+    }
+}
+
 
 
 
