@@ -1,3 +1,14 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+div.container-fluid {
+    background-color: rgb(35, 61, 88);
+    max-width: 1200px;
+    height: 220vh;
+}
+
 button.boton-submit{
     color: #fff;
     width: 25%;
@@ -8,14 +19,43 @@ button.boton-submit{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+button.btn-primary{
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-family: 'aller';
+    font-size: 1.4em;
+    background-color:rgb(248, 147, 31);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.btn-primary:hover{
+    transform: scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+    -ms-transform: scale(1.2) ;
+    -o-transform: scale(1.2) ;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    text-decoration: none;
+}
+
 button.btn {
     color: white;
     font-family: "aller";
     font-size: 1.4em;
 }
 
-
-.mainperfil{
+.mainregistro{
     width: 50%;
 }
 
@@ -71,14 +111,6 @@ div#copy h4{
     font-size: 1em;
 
 }
-
-
-
-
-
-
-
-
 
 @media (max-width:767px){
     button.boton-submit{
@@ -159,3 +191,507 @@ div#copy h4{
     }
 
 }
+
+
+button.btn-primary{
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-family: 'aller';
+    font-size: 1.4em;
+    background-color:rgb(248, 147, 31);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.btn-primary:hover{
+    transform: scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+    -ms-transform: scale(1.2) ;
+    -o-transform: scale(1.2) ;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    text-decoration: none;
+}
+
+
+
+
+/*REINGRESO DE ESTILOS */
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+div.container-fluid {
+    background-color: rgb(35, 61, 88);
+    max-width: 1200px;
+    height: 220vh;
+}
+
+.mainperfil{
+    width: 100%;
+}
+.mainperfil h1{
+    width: 50%;
+    margin-top: 5vh;
+}
+
+.titulo{
+    color: #FFF;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    color: #FFF;
+    width: 80%;
+    left: 0%;
+}
+
+.lineahorizontal{
+    border-width: 1px;
+    border-color: #FFF;
+}
+div.form-group{
+    margin-top: 10vh;
+    width: 80%;
+    margin-left: 5%;
+}
+div.form-group label{
+    font-family: 'aller';
+        font-size: 1.5em;
+        color: white;
+}
+
+button.btn-primary{
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-family: 'aller';
+    font-size: 1.4em;
+    background-color:rgb(248, 147, 31);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.btn-primary:hover{
+    transform: scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+    -ms-transform: scale(1.2) ;
+    -o-transform: scale(1.2) ;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    text-decoration: none;
+}
+
+
+ul.nav-pills li{
+    display: none;
+}
+
+nav#principal{
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+
+}
+nav#principal img{
+    float: left;
+    position: relative;
+    width: 4%;
+    top: 2vh;
+    left: 1%;
+}
+nav#principal h2{
+    float: left;
+    position: relative;
+    width: 15%;
+    top: 4vh;
+    left: 2%;
+    color: white;
+    font-family: "aldo";
+    font-size: 1.6em;
+
+}
+nav#principal ul{
+    overflow: hidden;
+    float: left;
+    left: 25%;
+    top: 3vh;
+    width: 55%;
+    position: relative;
+    right: 1%;
+}
+
+nav#principal ul li{
+    float: left;
+    left: 60%;
+    width: 14%;
+    margin-left:2%;
+    list-style: none;
+
+}
+nav#principal ul li a{
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+    font-family: 'aldo';
+    font-size: 1.2em;
+
+
+}
+nav#principal ul li a:hover{
+    color: red;
+
+}
+
+nav#principal ul li#faq{
+    padding-left: 4%;
+
+}
+div.animation #particles-js{
+    width: 90%;
+    height: 100vh;
+    margin-left: 2%;
+    min-height: 300px;
+    position: absolute;
+
+}
+
+div#redesSociales{
+    height: 15vh;
+    margin-top: 8vh;
+    margin-left: 8%;
+}
+
+
+div#redesSociales ul{
+    overflow: hidden;
+    margin-bottom: 0vh;
+    
+    padding-left: 30%;
+    
+}
+
+div#redesSociales ul li{
+    float: left;
+    list-style:none;
+    width: 5%;
+    font-size: 1.6em;
+    padding-left: 5%;
+    margin-top: 4vh;
+}
+
+#redesSociales ul li a i {
+    position: relative;
+    color: white;
+    margin-left: 1%;
+        
+}
+
+#redesSociales ul li a i:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+div#copy{
+    position: relative;
+    margin-top: 2vh;
+    
+    left: 38%;
+
+}
+
+div#copy h4{
+    color: white;
+    font-family: "aldo";
+    font-size: 1em;
+
+}
+
+
+
+
+/* PHONE */
+
+
+
+
+
+@media (max-width:767px){
+    nav#principal{
+        overflow: hidden;
+        width: 100%;
+        height: 8vh;
+    }
+
+    nav#principal img{
+        float: left;
+        position: relative;
+        width: 10%;
+        top: 0vh;
+        left: 1%;
+    }
+
+    nav#principal h2{
+        float: left;
+        position: relative;
+        width: 30%;
+        top: 1vh;
+        left: 4%;
+        color: white;
+        font-family: "aldo";
+        font-size: 1.4em;
+    }
+
+    nav#principal ul{
+        display: none;
+    }
+    
+    ul.nav-pills li{
+        display: block;
+        position: relative;
+        background-color: rgb(248, 147, 31);
+        margin-right: 2%;
+        margin-top: 2vh;
+        width: 35%;
+        height: 5vh;
+        border-radius: 15px;
+        -webkit-border-radius: 15px    ;
+        -moz-border-radius: 15px    ;
+        -ms-border-radius: 15px    ;
+        -o-border-radius: 15px    ;
+    }
+    ul.nav-pills li a{
+        color: white;
+        text-align: center;
+        font-family: "aller";
+        font-size: 1.2em;
+
+    }
+
+    div.dropdown-menu{
+        background-color: rgb(35, 61, 88);
+
+    }
+
+    
+    div#redesSociales{
+        margin-left: 0%;
+
+    }
+    div#redesSociales ul{
+
+        margin-left: 0%;
+        overflow: hidden;
+        padding-left: 0%;
+        padding-top: 4vh;
+        
+
+    }
+
+    div#redesSociales ul li{
+
+        float: left;
+        list-style:none;
+        width: 12%;
+        font-size: 1.3em;
+        padding-left: 13%;
+    }
+
+    div#redesSociales ul li a i{
+        position: relative;
+        color: white;
+        
+       
+        
+    }
+    div#copy{
+        position: relative;
+        margin-top: 2vh;
+        bottom: 0vh;
+        left: 24%;
+
+    }
+
+    div#copy h4{
+        color: white;
+        font-family: "aldo";
+        font-size: 1em;
+
+    }
+    .mainperfil{
+        width: 95%;
+    }
+    div.form-group{
+        width: 95%;
+
+    }
+    button.btn{
+        width: 50%;
+        margin-left: 10%;
+
+    }
+    .mainperfil h1{
+        width: 100%;
+        margin-top: 1vh;
+    }
+    
+    .titulo{
+        color: #FFF;
+        text-align: center;
+    }
+    
+    form {
+       
+        width: 95%;
+        left: 0%;
+    }div.animation #particles-js{
+        display: none;
+    }
+
+
+}
+
+
+/* TABLET */
+
+
+
+
+@media (max-width:991px) and (min-width:768px){
+    nav#principal img{
+        width: 6%;
+        top: 2.5vh;
+
+    }
+
+    nav#principal h2{
+        width: 20%;
+        top: 3.5vh;
+        font-size: 1.6em;
+
+    }
+
+    nav#principal ul{
+        left: 12%;
+        top: 3.5vh;
+        width: 65%;
+        right: 0%;
+
+
+
+    }
+
+    nav#principal ul li{
+
+        left: 60%;
+        width: 16%;
+        margin-left:0%;
+
+    }
+
+    nav#principal ul li a{
+
+        padding-left: 6%;
+        font-size: 1.2em;
+
+    }
+
+
+    nav#principal ul li#faq{
+        padding-left: 5%;
+
+    }
+
+    .mainperfil h1{
+        width: 50%;
+        margin-top: 8vh;
+    }
+    div.form-group{
+        margin-top: 10vh;
+        width: 80%;
+        margin-left: 10%;
+    }
+    div.form-group label{
+        font-family: 'aller';
+        font-size: 1.5em;
+        color: white;
+    }
+    button.btn-primary{
+        position: relative;
+        margin-left: 35%;
+        width: 30%;
+        margin-top: 10vh;
+        font-size: 1.4em;
+        
+    }
+    
+    
+    #redesSociales ul{
+        margin-bottom: 0vh;
+        margin-top: 3vh;
+        margin-left: -18%;
+        padding-top: 3%;
+
+
+    }
+       
+
+    div#redesSociales ul li{
+
+        width: 10%;
+        font-size: 1.3em;
+        padding-left: 11%;
+    }
+
+    #redesSociales ul li a i{
+        font-size: 2em;
+        margin-left: 0%;
+    }
+    div#copy{
+        position: relative;
+        margin-top: 5vh;
+        bottom: 0vh;
+        left: 35%;
+
+    }
+
+    div#copy h4{
+        color: white;
+        font-family: "aldo";
+        font-size: 1.2em;
+
+    }
+    div.animation #particles-js{
+        display: none;
+    
+    }
+}
+
+

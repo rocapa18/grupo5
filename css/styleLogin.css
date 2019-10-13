@@ -6,8 +6,7 @@
 div.container-fluid {
     background-color: rgb(35, 61, 88);
     max-width: 1200px;
-    height: 120vh;
-
+    height: 200vh;
 }
 
 .mainperfil{
@@ -40,12 +39,11 @@ div.form-group{
     margin-left: 5%;
 }
 div.form-group label{
-
     font-family: 'aller';
         font-size: 1.5em;
         color: white;
-
 }
+
 button.btn-primary{
     position: relative;
     margin-left: 40%;
@@ -112,12 +110,9 @@ nav#principal ul{
     width: 55%;
     position: relative;
     right: 1%;
-
-
 }
 
 nav#principal ul li{
-
     float: left;
     left: 60%;
     width: 14%;
@@ -126,7 +121,6 @@ nav#principal ul li{
 
 }
 nav#principal ul li a{
-
     padding-left: 0%;
     color: white;
     text-align: center;

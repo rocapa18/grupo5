@@ -14,45 +14,16 @@
 </head>
 <body>
     <div class="container-fluid">
-
-        <header>
-          <ul class="nav nav-pills">
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
-                  <div class="dropdown-menu">
-                      <a class="dropdown-item" href="home.html">HOME</a>
-                      <a class="dropdown-item" href="registro.html">REGISTRO</a>
-                      <a class="dropdown-item" href="login.html">INGRESO</a>
-                      <a class="dropdown-item" href="contacto.html">CONTACTO</a>
-                      <a class="dropdown-item" href="perfil.html">PERFIL</a>
-                      <!-- <a class="dropdown-item" href="faq.html">FAQ</a> -->
-
-                  </div>
-              </li>
-
-          </ul>
-            <div class="nav">
-                <nav id="principal">
-                    <img src="img/logo5t.png" alt="logo" id="logoChico">
-                    <h2>DH - Grupo 5</h2>
-                    <ul>
-                        <li><a href="home.html">HOME</a></li>
-                        <li><a href="registro.html">REGISTRO</a></li>
-                        <li><a href="login.html">INGRESO</a></li>
-                        <li><a href="perfil.html">PERFIL</a></li>
-                        <li><a href="contacto.html">CONTACTO</a></li>
-                        <!-- <li id="faq"><a href="faq.html">FAQ  </a></li> -->
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
+        <?php
+          $titulo = "faq";
+          require("header.php") 
+        ?>            
         <div class="contenedor">
-            <div class="animation">
-                <div id="particles-js">
-                </div>
+          <div class="animation">
+            <div id="particles-js">
             </div>
+          </div>
+
             <div class="mainperfil">
                 <h1 class="titulo">Preguntas Frecuentes</h1>
                 <hr class="lineahorizontal">
@@ -77,29 +48,8 @@
                   <li id="faq">Lorem ipsum dolor sit amet consectetur adipiscing elit?</li>
                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, ullamcorper integer gravida velit aliquam diam dictumst vivamus, eu nulla ornare habitasse nunc leo dui.</p>
                 </div>
-        <footer>
 
-
-            <div id="redesSociales">
-
-
-                <ul>
-
-                    <li><a href="https://www.facebook.com" target="blank"><i class="fab   fa-facebook-square"></i></a></li>
-                    <li><a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.spotify.com" target="blank"><i class="fab fa-spotify"></i></a></li>
-                    <li><a href="https://www.apple.com" target="blank"><i class="fab fa-apple"></i></a></li>
-                    <li><a href="https://www.amazon.com" target="blank"><i class="fab fa-amazon"></i></a></li>
-                    <li><a href="https://www.instagram.com" target="blank"><i class="fab  fa-instagram"></i></a></li>
-
-                </ul>
-                <div id="copy">
-                    <h4>&copy; Copyright your Website 2019</h4>
-                </div>
-            </div>
-
-
-        </footer>
+        <?php require ("footer.php"); ?>
 
     </div>  <!--conteiner fluid -->
 
