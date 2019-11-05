@@ -24,7 +24,7 @@
             </div>
           </div>
         <div class="mainlogo">
-            <h1>Recursos Para Desarrollo WEB</h1>
+            <h1>Recursos Para Desarrollo WEB claudio</h1>
             <h3>Los Mejores Cursos a tu Alcance</h3>
             <figure><img src="img/logo5t.png" alt="logo"></figure>
             <button id="cursos">
