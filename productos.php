@@ -28,7 +28,7 @@
       <section>
         <article class="product">
           <div class="photo-container">
-            <img src="img\PHP.jpg" alt="curso1">
+            <img src="img\1.jpg" alt="curso1">
           </div>
           <div class="titulo">
             <h2>PHP y MySQL</h2>
