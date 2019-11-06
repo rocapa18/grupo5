@@ -52,7 +52,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-        <img src="img\3" alt="">
+        <img src="img\3.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>C++</h2>
