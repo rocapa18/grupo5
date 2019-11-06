@@ -40,7 +40,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\bootstrap4.jpg" alt="">
+            <img src="img\2.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Bootstrap 4</h2>
@@ -52,7 +52,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-        <img src="img\c_mas_mas.jpg" alt="">
+        <img src="img\3" alt="">
           </div>
           <div class="titulo">
             <h2>C++</h2>
@@ -64,7 +64,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-          <img src="img\desarrollador web desde cero.jpg" alt="">
+          <img src="img\4.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Desarrollo WEB</h2>
@@ -76,7 +76,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\desarrollo web completo.jpg" alt="">
+            <img src="img\5.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Desarrollador WEB</h2>
@@ -88,7 +88,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseño web desde cero.jpg" alt="">
+            <img src="img\4.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB desde cero</h2>
@@ -100,7 +100,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseño web profesional.jpg" alt="">
+            <img src="img\6.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB profesional</h2>
@@ -112,7 +112,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseñoweb.jpg" alt="">
+            <img src="img\7.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB</h2>
@@ -124,7 +124,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\ecommerce.jpg" alt="">
+            <img src="img\8.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Ecommerce</h2>
@@ -136,7 +136,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\efectos css3.jpg" alt="">
+            <img src="img\9.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Efectos CSS3</h2>
@@ -148,7 +148,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\fundamentos de javascript.jpg" alt="">
+            <img src="img\10.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Fundamentos de JavaScript</h2>
@@ -160,7 +160,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\java.jpg" alt="">
+            <img src="img\11.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Java</h2>
@@ -176,7 +176,7 @@
       <section>
         <article class="product">
           <div class="photo-container">
-            <img src="img\PHP.jpg" alt="curso1">
+            <img src="img\1.jpg" alt="curso1">
           </div>
           <div class="titulo">
             <h2>PHP y MySQL</h2>
@@ -188,7 +188,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\bootstrap4.jpg" alt="">
+            <img src="img\2.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Bootstrap 4</h2>
@@ -200,7 +200,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-        <img src="img\c_mas_mas.jpg" alt="">
+        <img src="img\3.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>C++</h2>
@@ -212,7 +212,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-          <img src="img\desarrollador web desde cero.jpg" alt="">
+          <img src="img\4.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Desarrollo WEB</h2>
@@ -224,7 +224,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\desarrollo web completo.jpg" alt="">
+            <img src="img\5.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Desarrollador WEB</h2>
@@ -236,7 +236,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseño web desde cero.jpg" alt="">
+            <img src="img\4.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB desde cero</h2>
@@ -248,7 +248,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseño web profesional.jpg" alt="">
+            <img src="img\6.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB profesional</h2>
@@ -260,7 +260,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\diseñoweb.jpg" alt="">
+            <img src="img\7.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Diseño WEB</h2>
@@ -272,7 +272,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\ecommerce.jpg" alt="">
+            <img src="img\8.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Ecommerce</h2>
@@ -284,7 +284,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\efectos css3.jpg" alt="">
+            <img src="img\9.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Efectos CSS3</h2>
@@ -296,7 +296,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\fundamentos de javascript.jpg" alt="">
+            <img src="img\10.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Fundamentos de JavaScript</h2>
@@ -308,7 +308,7 @@
         </article>
         <article class="product">
           <div class="photo-container">
-            <img src="img\java.jpg" alt="">
+            <img src="img\11.jpg" alt="">
           </div>
           <div class="titulo">
             <h2>Java</h2>
