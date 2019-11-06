@@ -44,13 +44,13 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row"><i class="far fa-trash-alt"></i><img src="img\PHP.jpg" alt="curso" class="img-thumbnail"><h2>PHP y MySQL</h2></th>
+              <th scope="row"><i class="far fa-trash-alt"></i><img src="img\1.jpg" alt="curso" class="img-thumbnail"><h2>PHP y MySQL</h2></th>
               <td>U$D 12</td>
               <td>1</td>
               <td>U$D 12</td>
             </tr>
             <tr>
-              <th scope="row"><i class="far fa-trash-alt"></i><img src="img\bootstrap4.jpg" alt="curso" class="img-thumbnail"><h2>BOOTSTRAP4</h2></th>
+              <th scope="row"><i class="far fa-trash-alt"></i><img src="img\2.jpg" alt="curso" class="img-thumbnail"><h2>BOOTSTRAP4</h2></th>
               <td>U$D 10</td>
               <td>1</td>
               <td>U$D 10</td>
